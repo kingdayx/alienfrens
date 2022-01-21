@@ -9,6 +9,7 @@ const NavBarContainer = styled.div`
 
 const NavBarLogo = styled.h1`
   margin-left: 10rem;
+  color: white;
 `;
 
 const NavBarContainerRight = styled.div`
@@ -36,13 +37,17 @@ const NavBarButton = styled.div`
   margin-left: 2rem;
   padding: 1rem;
   border: 2px solid black;
-  background: #76b990;
+  background: #61ce70;
+  border-radius: 5px;
+  &:hover {
+    background: #9b51e0;
+  }
 `;
 
 export default function NavBar() {
   return (
     <NavBarContainer>
-      <NavBarLogo> Alien frens </NavBarLogo>
+      <NavBarLogo> Multiverse Club </NavBarLogo>
       <NavBarContainerRight>
         <NavBarIcons src="https://i0.wp.com/alienfrens.io/wp-content/uploads/2021/12/af-discord-icon.png?fit=79%2C63&ssl=1" />
         <NavBarIcons src="https://i0.wp.com/alienfrens.io/wp-content/uploads/2021/12/af-twitter-icon-1.png?fit=77%2C64&ssl=1" />
