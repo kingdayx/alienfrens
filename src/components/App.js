@@ -1,6 +1,8 @@
+import Cards from "./Cards";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import TopBar from "./TopBar";
+import Who from "./Who";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <TopBar />
       <NavBar />
       <Header />
+      <Who />
+      <Cards />
     </div>
   );
 }

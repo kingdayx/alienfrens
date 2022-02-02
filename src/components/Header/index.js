@@ -37,6 +37,7 @@ const HeaderButton1 = styled.div`
   padding: 1rem;
   margin-right: 1rem;
   border-radius: 5px;
+  cursor: pointer;
   &:hover {
   }
 `;
@@ -48,6 +49,7 @@ const HeaderButton2 = styled.div`
   background: #c77fc8;
   padding: 1rem;
   border-radius: 5px;
+  cursor: pointer;
   &:hover {
   }
 `;
